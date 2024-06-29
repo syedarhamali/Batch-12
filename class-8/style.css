@@ -1,0 +1,40 @@
+/* p+p{
+    color: red;
+} */
+/* body{
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/025/067/762/small_2x/4k-beautiful-colorful-abstract-wallpaper-photo.jpg') no-repeat;
+    background-size: cover;
+} */
+/* h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.paragraph{
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-decoration: underline;
+} */
+
+.container{
+    display: flex;
+    gap: 10px;
+    background-color: red;
+}
+h4{
+    border: 1px solid black;
+    padding-left: 20px;    
+    padding-top: 25px;
+    padding: 10px 20px 20px 10px;
+    margin: 10px;
+    text-align: center;
+      /* top: 10px right : 20 , bottom: 20px , left: 10px  */
+}
+
+.container p {
+    background-color: gray;
+    color: white;
+}
