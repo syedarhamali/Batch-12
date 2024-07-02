@@ -1,0 +1,57 @@
+/* h1{
+    text-align: right;
+} */
+body{
+    background-color: skyblue;
+    color: white;
+ }
+p{
+    font-size: 50px;
+    
+    /* text-shadow: 4px 0px 10px red; */
+    /* word-spacing: 30px; */
+}
+
+p:first-letter{
+    font-size: 100px;
+}
+
+.paragraph::first-letter{
+    font-size: 200px;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    color: red ;
+    font-size: 100px;
+}
+
+/* .input:active{
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+.input:focus{
+    border: 1px solid black;
+    outline: none
+} */
+
+/* p:hover{
+    color: red;
+}  */
+
+/* p:active{
+    color: blue;
+} */
+
+p{
+    /* border-width: 2px;
+    border-color: red;
+    border-style: dotted; */
+    width: 70%;
+    height: 110%;
+    border: 1px solid red;
+}
