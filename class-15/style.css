@@ -1,0 +1,22 @@
+.boxes{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+/* .box:nth-child(1){
+    order: 3;
+} */
+.box:nth-child(2){
+    flex-grow: 3;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: tomato;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 150px;
+    flex-grow: 1;
+}

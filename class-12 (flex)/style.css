@@ -1,0 +1,132 @@
+:root{
+    --myColor: rgb(66, 17, 17); 
+    --myFont: 2em;
+  }
+  body{
+    height: 120vh;
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+    background-color: var(--myColor);
+  
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: antiquewhite;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  .main{
+  
+    /* height: 60%; */
+  }
+  
+  .parent{
+    width: 70%;
+    border: 1px solid black;
+    height: 40%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: 10px 5px 15px 20px;
+    /* font-size: 32px; */
+  }
+  .div1{
+    /* background-color: beige; */
+    width: 70%;
+    height: 70%;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 70px;
+    max-height: 120px;
+  
+    border: inherit;
+    padding: 10px ;
+  }
+  
+  
+  
+  .main-container {
+    --myColor: red;
+  
+    /* background-color: var(--myColor); */
+    font-size: var(--myFont);
+    height: 400px;
+    width: 70%;
+    /* width: 300px; */
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    margin: 10px 10px;
+    /* justify-content: center ; */
+    align-content: center;
+    /* row-gap: 15px; */
+    
+  }
+  
+  
+  .items{
+    border: 1px solid black;
+    padding: 5px;
+    /* margin: 5px; */
+    flex-grow: 1;
+    /* flex-shrink: 1;
+    flex-basis: 50px; */
+    width: 100px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+  .three{
+    /* flex-grow: 4; */
+    /* order: -1; */
+    /* flex-shrink: 0; */
+  }
+  .four{
+    /* order: -2; */
+    /* flex-shrink: 5; */
+    /* flex-grow: 3; */
+  
+  }
+  .one{
+    flex-basis: 200px;
+    /* flex-grow: 3; */
+    /* order: 1; */
+    /* flex-grow: 3; */
+  }
+  .two{
+    /* order: 5; */
+    /* flex-grow: 4; */
+   /* align-self: flex-start; */
+  
+  
+  
+   /* short-hand property */
+   /* flex: 5 0 200px; */
+  }
+  
+  

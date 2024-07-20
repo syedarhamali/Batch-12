@@ -1,0 +1,32 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(220,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,121,9,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  h1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqz_TgAMxoeGcXhfyvsydPmRst5U3ZLsoUBg&s");
+    text-indent: -99999px;
+  }
+  .parent {
+    height: 500px;
+    width: 80%;
+    border: 1px solid black;
+  }
+  .child {
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+  }
+  .parent {
+    background-image: url("./cafer-mert-ceyhan-i8z9Clwc9IE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+  
+    /* background: 
+    url("./cafer-mert-ceyhan-i8z9Clwc9IE-unsplash.jpg")
+    no-repeat center
+    ; */
+  }
+  
