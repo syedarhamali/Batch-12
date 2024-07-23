@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-list ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.header-button{
+    background-color: #151515;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 900px) {
+    .main{
+        flex-direction: column;
+    }
+    .main-list ul{
+        padding: 0px;
+        flex-direction: column;
+    }
+}

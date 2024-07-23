@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: red;
+        color: white;
+    }
+}
