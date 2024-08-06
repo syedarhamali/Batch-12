@@ -1,0 +1,84 @@
+/* :root{
+    --primary-purple: purple;
+    --primary-padding: 10px;
+}
+h1{
+    border: 2px solid black;
+    padding: var(--primary-padding);
+}
+.purple-text{
+    color: var(--primary-purple);
+}
+
+.container{
+    background-color: var(--primary-purple);
+    padding: var(--primary-padding);
+}
+
+@media screen and (max-width: 576px) {
+    :root{
+        --primary-purple: blue;
+    }
+} */
+
+/* .outer-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;
+}
+.box:nth-child(1){
+    flex-grow: 1;
+}
+.box:nth-child(3){
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.box:nth-child(2){
+    flex-grow: 2;
+} */
+/* body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    display: flex;
+    background-color: gainsboro;
+}
+
+.logo-div{
+    justify-self: flex-start ;
+}
+
+.logo{
+    width: 200px;
+}
+
+.menus{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+} */
+.parent{
+    background-color: red;
+    height: 100px;
+    position: relative;
+}
+
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+}
